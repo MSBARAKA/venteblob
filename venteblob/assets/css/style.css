@@ -1,0 +1,93 @@
+body {
+
+  background-color: black;
+  
+}
+
+
+dl{
+
+ margin-bottom: 30px;
+ 
+  
+}
+
+#dl{
+
+  border: 2px solid yellow;
+  margin-bottom: 30px;
+}
+
+img{
+
+  width: auto;  
+
+  height: 100px;
+}
+nav{
+
+  font-size: x-large !important; 
+}
+
+nav a{
+
+  margin: 30px 30px 30px 30px;
+}
+a{
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: yellow;
+}
+
+h1,h2,nav,video,main{
+  font-family: 'Londrina Outline', cursive;
+  color: yellow;
+  
+  display: flex;
+  justify-content: center;
+}
+
+#videoblob{
+display: block;
+margin:auto;
+}
+
+#lastdd{
+
+  margin-bottom: 30px;
+}
+
+#equipe{
+
+  
+  display: block;
+   margin:auto;
+   margin-top: 35px;
+
+}
+
+
+dt,dl,dd{
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  
+}
+
+dd{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+p{
+  display: block;
+  margin: auto;
+  width: 60%;
+  text-justify: auto;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+*{
+
+  box-sizing: border-box;
+}

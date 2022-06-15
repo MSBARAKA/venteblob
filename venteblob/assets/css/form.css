@@ -1,0 +1,73 @@
+ main{
+ 
+     width:60%;
+     margin: auto;
+     
+ }
+
+ img{
+
+    width: auto;  
+  
+    height: 100px;
+  }
+  
+  body{
+
+    background-color: black;
+  }
+ 
+ input{ width: 30%; margin-bottom: 30px;}
+ #enregistrer{ width: 10%; margin-bottom: 16px;}
+ /* legend{color: white; background-color: black;border: 1px solid black;} */
+ 
+ h1,h2,nav{
+    font-family: 'Londrina Outline', cursive;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+nav a{
+
+    margin: 30px 30px 30px 30px;
+}
+  #enregistrer{
+
+    background-color: black;
+    width: 45%;
+    display: block;
+    margin:auto;
+    font-family: 'Nunito', sans-serif;
+    color: yellow;
+    border-radius: 30px;
+    font-size: x-large;
+    border-color: yellow;
+    
+  }
+nav{
+
+    font-size: x-large !important; 
+}
+
+  a{
+
+    text-decoration: none;
+    color: yellow;
+  }
+
+ *{
+
+    box-sizing: border-box;
+  }
+
+  label{
+   
+    font-family: 'Nunito', sans-serif;
+    color: yellow;
+  }
+
+  
+
+  

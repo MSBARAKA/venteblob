@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/form.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Nunito&display=swap" rel="stylesheet">
+    <title>contact</title>
+</head>
+<body>
+
+    <header>
+    <nav>
+         <img  href="accueil.html" id="blob"src="assets/css/blob.png" alt="blob logo">
+        <a href="accueil.html">Accueil</a>
+        <a href="quisommesnous.html">Qui sommes-nous ?</a>
+        <a href="contact.html">Nous contacter</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="seconnecter.html">Se connecter</a>
+        <a href="glossaire.html">Notre glossaire</a>
+    </nav>
+                     <h1>Contactez-nous</h1>
+    </header>
+
+
+    <form action="" method="post">
+        <main>
+        <fieldset> 
+        <h2>Sélectionnez votre coffret blob</h2>
+        <div>
+        <label for="coffret"> Coffret = 5 blobs </label>
+        <select name="coffretblob" id="coffretblob">
+         <option value="coffretscolaire">Coffret scolaire</option>
+         <option value="coffretenfant">Coffret enfant</option>
+         <option value="coffret entreprise">Coffret entreprise</option>
+         <option value="coffret particulier">Coffret particulier</option>
+        </select>
+        </div> 
+
+        <div>
+            <label for="nombre"> nombre total de coffret (maximum 10 coffrets par livraison)</label>
+            <select name="nombre" id="nombre">
+             <option value="nombre">1</option>
+             <option value="nombre">2</option>
+             <option value="nombre">3</option>
+             <option value="nombre">4</option>
+             <option value="nombre">5</option>
+             <option value="nombre">6</option>
+             <option value="nombre">7</option>
+             <option value="nombre">8</option>
+             <option value="nombre">9</option>
+             <option value="nombre">10</option>
+             
+            </select>
+            </div> 
+       
+        <label for="blob">Choississez votre blob</label>
+        <select name="blob" id="blob">
+         <option value="blobavaustralien">Blob australien / AVA</option>
+         <option value="blolbcharlyaméricain">Blob américain / Charly</option>
+         <option value="blobmystere">Blob mystère / nouvelle espèce</option>
+        </select>
+        </div> 
+
+        <h2>Votre identité</h2>
+        <div>
+            <label for="qui">Vous êtes...</label>
+            <select name="identite" id="identite">
+             <option value="identiteenfant">un enfant</option>
+             <option value="identiteentreprise">une entreprise</option>
+             <option value="identite">un particulier</option>
+            </select>
+       </div> 
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="text" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="livraison">adresse de livraison</label>
+            <input type="text" name="livraison" id="livraison">
+        </div>
+     
+        <div>
+            <label for="autorisation">Si tu es un enfant, un accord de tes parents est nécessaire avant l'envoi de ton blob, mets leur numéro ici, ils devront nous contacter et signer un autorisation en ligne électronique. (Pour les majeurs, laissez la case vide)</label>
+            <input type="text" name="autorisation" id="autorisation">
+        </div>
+        <div>
+            <label for="rgpd">RGPD êtes-vous d'accord pour qu'on stocke vos données dans notre base de données ?</label>
+            <select name="rgpdaccord" id="rgpdaccord">
+             <option value="rgpdoui">oui</option>
+             <option value="rgpd">non</option>
+             </select>
+            </div> 
+
+            <div>
+                <label for="comment">Votre commentaire</label>
+                <textarea name="comment" id="comment" cols="6" rows="3"></textarea>
+                </div> 
+
+           
+            <input  type ="submit" value="enregistrer" id="enregistrer">
+       </fieldset>
+ 
+    </form>
+</main>
+    <div>Une fois le formulaire envoyé, on vous enverra le devis avec les prix définitifs
+        1 coffret = 1 euros
+    </div>
+<script src="clock.js" defer></script>  
+</body>
+</html>

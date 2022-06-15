@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/form.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Nunito&display=swap" rel="stylesheet">
+    <title>Inscription</title>
+</head>
+<body>
+
+    <header>
+    <nav>
+         <img  href="accueil.html" id="blob"src="assets/css/blob.png" alt="blob logo">
+        <a href="accueil.html">Accueil</a>
+        <a href="quisommesnous.html">Qui sommes-nous ?</a>
+        <a href="contact.html">Nous contacter</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="seconnecter.html">Se connecter</a>
+        <a href="glossaire.html">Notre glossaire</a>
+        <div id="clock"></div>
+    </nav>
+                     <h1>S'inscrire à  nos newsletters</h1>
+    </header>
+
+
+    <form action="" method="post">
+        <main>
+        <fieldset> 
+        <h2>Votre identité</h2>
+        <div>
+            <label for="qui">Vous êtes...</label>
+            <select name="identite" id="identite">
+             <option value="identite">une entreprise</option>
+             <option value="identite">un particulier</option>
+            </select>
+        </div> 
+        <div>
+            <label for="qui">Grade demandé</label>
+            <select name="grade" id="grade">
+             <option value="grade">User</option>
+             <option value="grade">Admin</option>
+             <label>Le grade demandé vous sera confirmé par email
+             </label>
+            </select>
+        </div> 
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom">
+        </div>
+        <div>
+            <label for="orénom">Prénom</label>
+            <input type="text" name="prénom" id="prénom">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Téléphone</label>
+            <input type="number" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="adresse">Adresse</label>
+            <input type="text" name="adresse" id="adresse">
+        </div>
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <div>
+            <label for="password">Confirmer votre mot de passe</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <div>
+            <label for="rgpd">RGPD êtes-vous d'accord pour qu'on stocke vos données dans notre base de données ?</label>
+            <select name="rgpdaccord" id="rgpdaccord">
+             <option value="rgpdoui">oui</option>
+             <option value="rgpd">non</option>
+             </select>
+            </div> 
+       <input  type ="submit" value="enregistrer" id="enregistrer">
+       </fieldset>
+ 
+    </form>
+</main>
+<script src="controls.js" defer></script>  
+<script src="clock.js" defer></script>  
+</body>
+</html>
